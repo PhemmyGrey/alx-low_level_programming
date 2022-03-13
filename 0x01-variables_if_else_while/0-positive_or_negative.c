@@ -1,34 +1,28 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - print -> numbers and specific if is possitive, negative or zero
+ * main - new program
  *
- * Return: Always 0 (Success)
+ * Description: Display the value of randomly generated numbers.
+ * if n>0, n=0 or n<0 displays their value.
+ * Return: If correct, it return 0
  */
-
-int main (void)
-
+int main(void)
 {
 	int n;
 
-	srand() - RAND_MAX / 2;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-	{
 		printf("%d is positive\n", n);
-	}
 	else if (n == 0)
-	{
 		printf("%d is zero\n", n);
-	}
 	else
-	{
-		printf("%d is negative\n", n);
-	}
+		printf("%i is negative\n", n);
 
-	return (0)
-
+	return (0);
 }
 
