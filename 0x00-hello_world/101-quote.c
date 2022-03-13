@@ -10,9 +10,9 @@
  */
 int main(void)
 {
-	char strng[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	int nbytes = strlen(strng);
-	write(2, strng, nbytes);
-	return (1);
+char strng[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+int nbytes = strlen(strng);
+write(2, strng, nbytes);
+return (1);
 }
 
