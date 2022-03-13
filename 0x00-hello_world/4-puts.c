@@ -1,27 +1,14 @@
 #include <stdio.h>
 
-
-
 /**
+ * main - my main program
  *
- *  * main - main program
- *
- *   *
- *
- *    * Description: First use of puts for Holberton
- *
- *     * Return: If all goes on, it returns 0
- *
- *      */
-
+ * Description: Using Put in alx
+ * Return: If all goes well, return 0
+ */
 int main(void)
-
 {
-
 	puts("\"Programming is like building a multilingual puzzle");
-
 	return (0);
-
 }
-
 
