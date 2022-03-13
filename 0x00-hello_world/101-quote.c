@@ -3,17 +3,16 @@
 #include <string.h>
 
 /**
+ * main - my main program
  *
- * Description: Print to stout without using put or printf
- * Description: Print to stderr without usig puts or printf
- * Return: If all goes on, it return 1
+ * Description: Print to stdout and stderr without puts of printf
+ * Return: If all is ok, it returns 1
  */
 int main(void)
 {
-	char strng[] = "and that piece of art is useful\"- Dora Korpar, 2015-10-19\n";
+	char strng[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	int nbytes = strlen(strng);
 	write(2, strng, nbytes);
 	return (1);
 }
-
 
