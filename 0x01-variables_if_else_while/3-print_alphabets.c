@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - main project
  * Description: using 'putchar' for lower and uppercase alphabet.
