@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main project
- * Print combo of two 2 digit numbers.
+ * Description: print double of doubles.
  * numbers should be seperated by space
  * all numbers must be two digits 1 should be 01
  * seperate combination with comma then space
@@ -9,7 +9,7 @@
  * all three digits are considered same no matter the order
  * use 'putchar' only
  * do not use any 'char' variable.
- * Rerurn: 0 for positive result
+ * Return: 0 for positive result
  */
 int main(void)
 {
