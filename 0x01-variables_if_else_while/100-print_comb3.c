@@ -1,4 +1,4 @@
-#include <stdio.g>
+#include <stdio.h>
 /**
  * main - main project
  * Description: Print all possible combination of two digits.
