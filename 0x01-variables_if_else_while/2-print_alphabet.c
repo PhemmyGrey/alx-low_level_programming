@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - My Program
+ * main - main program
  *
  * Description: Display lower case alphabets , followed by a new line. 
  * Return: if right , it returns 0
