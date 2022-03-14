@@ -1,23 +1,20 @@
 #include <stdio.h>
-
 /**
  * main - main program
- *
- * Description: Display lower case alphabets , followed by a new line. 
- * Return: if right , it returns 0
+ * Description: use 'putchar' to print lower case alphabets.
+ * Return: 0
  */
 int main(void)
 {
-	char 1char;
+	char c = 'a';
 
-	for (1char = 'a'; 1char <= 'z'; 1char++)
-		putchar(1char);
-
-	putchar(1char);
-
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
 	putchar('\n');
 
 	return (0);
-
 }
 
