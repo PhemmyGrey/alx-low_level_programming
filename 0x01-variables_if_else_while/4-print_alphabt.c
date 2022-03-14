@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main project
- * Description: Using 'putchar' print all letters except 'q' and'e'.
+ * Description: Use 'putchar' print all letters exclude 'q' and'e'.
  * Return: 0
  */
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 	{
 		if (c != 'q' && c != 'e')
 			putchar(c);
-		c++
+		c++;
 	}
 	putchar('\n');
 
