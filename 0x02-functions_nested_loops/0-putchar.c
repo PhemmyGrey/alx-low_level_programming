@@ -7,15 +7,16 @@
  */
 int main(void)
 {
-	char pal = "_putchar";
+	char pal[] = "_putchar\n";
 	int i = 0;
 
-	for (; i < 8 ; i++)
+	while (i <= 8)
 	{
 		_putchar(pal[i]);
+		i++;
 	}
-	_putchar('\n');
 
 	return (0);
+
 }
 
