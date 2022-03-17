@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * p_a_x10 - print lowercase alphabet ten times
+ * print_alphabet_x10 - print lowercase alphabet ten times
  * Return: 0
  */
-void p_a_x10(void)
+void print_alphabet_x10(void)
 {
 char abc;
 int  count = 0;
