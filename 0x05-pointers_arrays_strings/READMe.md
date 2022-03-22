@@ -1,1 +1,1 @@
-Read me for arrays pointers and strings
+for arrays pointers and strings
