@@ -1,0 +1,1 @@
+for arrays pointers and strings, please work now.
