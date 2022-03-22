@@ -10,6 +10,6 @@ int num;
 
 srand(time(0));
 num = rand();
-printf("Randomly; %i\n", num);
+printf("Anything; %i\n", num);
 return (0);
 }
