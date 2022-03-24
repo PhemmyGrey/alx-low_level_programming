@@ -35,4 +35,4 @@ char *cap_string(char *n)
 	}
 	return (n);
 }
-© 2022 GitHub, Inc.
+
